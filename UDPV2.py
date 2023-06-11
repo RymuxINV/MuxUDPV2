@@ -26,6 +26,7 @@ print(f"""
 ip = input("[+] Target: ")
 port = int(input("[+] Port: "))
 thread = int(input("[+] Threads: "))
+time = int(input("[+] Time: "))
 packet_count = int(input("[+] Packet Count: "))
 packet_size = int(input("[+] Packet Size (in bytes): "))
 
