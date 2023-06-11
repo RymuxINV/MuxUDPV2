@@ -1,3 +1,5 @@
+
+
 import socket
 import os
 import random
@@ -66,7 +68,7 @@ if __name__ == '__main__':
 	print(logo)
 	print(banner)
 	try:
-       if method == 'TCP':
-           TCP()
-       elif method == 'UDP':
-           UDP()
+		if method == 'TCP':
+			TCP()
+		elif method == 'UDP':
+			UDP()
